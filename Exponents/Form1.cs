@@ -28,9 +28,11 @@ namespace Exponents
         {
             // STORAGE
             int num; // square, cube;
-
+            int square;
+            int cube;
             // INPUT
-            num = Convert.ToInt32(xInputTextBox.Text);
+            num = Convert.ToInt32(UxInputTextBox.Text);
+            square = num * num;
 
             // PROCESS
             /* calculate the square of the number and add it to the output - 
@@ -38,6 +40,7 @@ namespace Exponents
              * and then receive the answer */
             //square = num * num;
             xOutputLabel.Text = String.Format("Square = {0}", Square(num));
+            cube = num * num * num;
 
             /* calculate the cube of the number and add it to the output - 
              * do this by creating a methd as in the squaring example above */
