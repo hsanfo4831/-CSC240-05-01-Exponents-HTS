@@ -27,7 +27,7 @@ namespace Exponents
         private void xGoButton_Click(object sender, EventArgs e)
         {
             // STORAGE
-            int num; // square, cube;
+            int num; // square, cube; y
             int square;
             int cube;
             // INPUT
