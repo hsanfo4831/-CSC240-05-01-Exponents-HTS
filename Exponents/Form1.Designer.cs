@@ -37,7 +37,7 @@
             // 
             // UxInputTextBox
             // 
-            this.UxInputTextBox.Location = new System.Drawing.Point(92, 45);
+            this.UxInputTextBox.Location = new System.Drawing.Point(77, 43);
             this.UxInputTextBox.Name = "UxInputTextBox";
             this.UxInputTextBox.Size = new System.Drawing.Size(100, 20);
             this.UxInputTextBox.TabIndex = 0;
@@ -45,6 +45,7 @@
             // UxInputLabel1
             // 
             this.UxInputLabel1.AutoSize = true;
+            this.UxInputLabel1.ForeColor = System.Drawing.Color.White;
             this.UxInputLabel1.Location = new System.Drawing.Point(92, 27);
             this.UxInputLabel1.Name = "UxInputLabel1";
             this.UxInputLabel1.Size = new System.Drawing.Size(85, 13);
@@ -62,7 +63,9 @@
             // 
             // UxGoButton
             // 
-            this.UxGoButton.Location = new System.Drawing.Point(105, 96);
+            this.UxGoButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.UxGoButton.ForeColor = System.Drawing.Color.White;
+            this.UxGoButton.Location = new System.Drawing.Point(95, 94);
             this.UxGoButton.Name = "UxGoButton";
             this.UxGoButton.Size = new System.Drawing.Size(75, 67);
             this.UxGoButton.TabIndex = 6;
@@ -72,7 +75,9 @@
             // 
             // UxResetButton
             // 
-            this.UxResetButton.Location = new System.Drawing.Point(105, 212);
+            this.UxResetButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.UxResetButton.ForeColor = System.Drawing.Color.White;
+            this.UxResetButton.Location = new System.Drawing.Point(95, 208);
             this.UxResetButton.Name = "UxResetButton";
             this.UxResetButton.Size = new System.Drawing.Size(75, 23);
             this.UxResetButton.TabIndex = 7;
@@ -84,6 +89,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Blue;
             this.ClientSize = new System.Drawing.Size(284, 262);
             this.Controls.Add(this.UxResetButton);
             this.Controls.Add(this.UxGoButton);
